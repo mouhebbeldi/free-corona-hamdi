@@ -55,7 +55,7 @@ const Acceuil = () => {
     <div className="ui grid stackable">
 <Icon size='huge' onClick={scrollToTop} disabled name='arrow up' className='arrow-up'/>
     <div className="sixteen wide column">
-     <h2 className='free_corona' >Free-Corona</h2>
+     <h2 className='free_corona' >Free-Corona-Project</h2>
    </div>
   
   
