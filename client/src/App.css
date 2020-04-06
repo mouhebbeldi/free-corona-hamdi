@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    /* background-color: whitesmoke; */
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+h2{
+    font-family: 'Changa', sans-serif;
+    font-size: 30px;
+    
+}
+.item{
+    font-family: 'Changa', sans-serif;
+}
+.courbe{
+    margin-top: 30px;
+    width: 100%;
+}
+.map{
+    margin-top: 30px;
+    width: 50%;
+    height: 280px;
+}
+.register {
+    margin-top: 60px;
+}
+::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #ffb7b7; /* Gecko Browsers */
+  }
+  p.yellow::selection,
+p.yellow::-moz-selection {
+  background: #fff2a8;
+}
+.container{
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+/* NavBar */
+.item{
+    color: crimson !important;
+}
+.welcome{
+font-size: larger;
+}
+.userName{
+color: coral !important;
+}
+/* NavBar */
+
+ul li{
+    list-style: none;
+}
+.side_container{
+    margin-top: 30px !important;
+}
+iframe{
+    width:100%;
+    height: 320px;
+}
+
+.free_corona{
+    font-size: 60px;
+    color: black;
+}
+
+.center2{
+    position: relative;
+    top: 80%;
+    text-align: center !important;
+    padding: auto;
+    font-size: 40px;
+}
+
+.center-normal{
+    text-align: center !important;
+
+}
+.center{
+    text-align: center !important;
+    padding: auto;
+    font-size: 40px;
+    color: rgb(200, 161, 88);
+
+}
+.sixteen{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    
+}
+
+.problems{
+    /* border: 1px solid black; */
+   
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color:rgb(255, 250, 242) !important;
+}
+
+.footer-area{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    background-color:rgb(245, 158, 238);
+    margin-top: 10vh;
+    margin-bottom: none !important;
+    bottom: 0%;
+}
+.me{
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+
+}
+.margin-top{
+    margin-top:50px !important; 
+}
+.margin-bottom{
+    margin-bottom:50px !important; 
+}
+.margin-left{
+    margin-left:50px !important; 
+}
+.margin-right{
+    margin-right:50px !important; 
+}
+label{
+    margin-top:50px !important;
+    /* margin: auto !important; */
+    font-size: 23px !important;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    cursor: pointer;
+}
+.field p{
+    margin-left: 35px !important;
+}
+.arrow-up{
+    position: fixed!important;
+    z-index: 999;
+    bottom: 10% ;
+    right: 3% ;
+    cursor: pointer;
+}
+a{
+    /* background: linear-gradient(to bottom, pink 0%, pink 100%); */
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 3px 3px;
+    color: rgb(212, 81, 103);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    color: rgb(212, 81, 103);
+
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+
+  p{
+      font-size: 18px;
+  }
+
+  .tunisia{
+      color: black;
+      background-color: rgb(235, 149, 149);
+  }
+  @media (max-width: 768px) {
+    .sceen768px {
+        color: black !important;
+    }
+  }
+  .article-date{
+      color: rgb(255, 146, 250);
+  }
+
+
+   .colorr{
+      width: 30px !important;
+      height: 20px !important;
+      border: 1px solid black;
+  }
+
+  .color1{background-color: #fceed3;}
+  .color2{background-color: #f2a88d;}
+  .color3{background-color: #e36654;}
+  .color4{background-color: #e5354b;}
+  .color5{background-color: #87353f;}
